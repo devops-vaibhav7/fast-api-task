@@ -27,7 +27,7 @@ jobs:
 
           script: |
 
-            cd ~/ai-devops-assignment
+            cd ~/fast-api-task
 
             git pull origin main
 
