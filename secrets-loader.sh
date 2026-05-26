@@ -4,7 +4,7 @@ echo "Fetching secrets from AWS Secrets Manager..."
 
 SECRET_JSON=$(aws secretsmanager get-secret-value \
   --secret-id Fast-API-Secrets \
-  --region us-east-1 \
+  --region us-east-2 \
   --query SecretString \
   --output text)
 
