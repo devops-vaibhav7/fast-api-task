@@ -66,7 +66,7 @@ class UserCreate(BaseModel):
 def home():
 
     return {
-        "message": "AI DevOps Assignment Running",
+        "message": "AI DevOps Assignment Running Made by Vaibhav Shah",
         "status": "success",
         "timestamp": datetime.utcnow().isoformat()
     }
